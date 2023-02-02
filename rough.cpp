@@ -24,7 +24,8 @@ int main() {
             }
         }
     }
-	cout<<(max+1)<<endl;
+	cout<<(max+1);
+	cout<<endl;
 
 	return 0;
 }
