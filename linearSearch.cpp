@@ -11,11 +11,11 @@ bool liSearch(int arr[], int size, int key){
 }
 int main(){
     int arr[]={1,3,4,7,5,-7,-9,11,-12};
-    int key;
+    int Key;
     cout<< "enter the number you want to search :"<<endl;
-    cin>>key;
+    cin>>Key;
     
-    liSearch(arr,10,key);
+    liSearch(arr,10,Key);
 
     if(liSearch){
         cout<<"number is present"<<endl;
