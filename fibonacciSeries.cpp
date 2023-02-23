@@ -10,7 +10,7 @@ int main(){
     cout<<a<<" "<<b<<" ";
     for(int i=0;i<n-2;i++){
        int nextNum= a+b;
-       cout<<nextNum<<" ";
+       cout<<nextNum<<"  ";
        a=b;
        b=nextNum;
     }
