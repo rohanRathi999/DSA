@@ -73,6 +73,8 @@ int main(){
     head->next->next->next = new Node(4);
     head->next->next->next->next = new Node(5);
     head->next->next->next->next->next = new Node(6);
+    deletionAtFirst(head);
+    deletionAtEnd(head);
     deletionAtPosition(head,tail,4);
     printList(head,tail);
 }
